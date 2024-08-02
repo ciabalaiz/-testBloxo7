@@ -5,6 +5,8 @@ local template = {
 
 --bloxo save
 
+
+
 function preload(v)
 	local t = {}
 	for _, ve in pairs(game.ReplicatedStorage.animations:GetChildren()) do
@@ -25,7 +27,7 @@ function preload(v)
 end
 
 local data = {}
-
+print("PIERO E PAFFO")
 for _, v in pairs(workspace:GetChildren()) do
 	if v:FindFirstChildOfClass("Humanoid") and v:IsA("Model") then
 		data[v] = template
