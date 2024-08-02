@@ -6,10 +6,6 @@ local action = game.ReplicatedStorage.modules.gunFramework.action
 
 
 
-
-
-
-
 --bloxo debug
 
 Players.PlayerAdded:Connect(function(player)
@@ -24,7 +20,7 @@ Players.PlayerAdded:Connect(function(player)
 	end)
 end)
 
-print("baffo puppo")
+print("baffo papogfw")
 
 action.OnServerEvent:Connect(function(player, data, pos)
 	local name, action = table.unpack(data)
