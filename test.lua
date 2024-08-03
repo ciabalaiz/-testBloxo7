@@ -1,1 +1,4 @@
 --bloxo save
+
+
+print("BVAFFLOLO")
